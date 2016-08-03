@@ -23,7 +23,7 @@ import alexq.widgetLibApplication;
 /**
  * @author AleXQ
  * @Date 16/6/20
- * @Description: 用于直播间内展示视频加载中的进度条
+ * @Description: 斜线滚动样式的条纹进度条-->/////////
  */
 
 public class ShadowMovingLoadingView extends View {
