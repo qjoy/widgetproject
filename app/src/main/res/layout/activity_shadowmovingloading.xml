@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/layout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@mipmap/background1"
+	tools:context="com.alexq.shadowloadingviewdemo.ShadowMovingLoadingDemoActivity">
+
+	<com.alexq.uiwidget.ShadowMovingLoadingView
+		android:id="@+id/progressBarVideoLoading"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+	/>
+
+	<LinearLayout
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:gravity="center"
+		android:orientation="horizontal"
+	>
+
+		<Button
+			android:id="@+id/changebackground"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:layout_weight="1"
+			android:background="@drawable/sel_btnstyle_demo"
+			android:text="Change \n background"
+		/>
+
+	</LinearLayout>
+</RelativeLayout>

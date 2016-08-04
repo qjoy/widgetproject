@@ -5,9 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import com.alexq.R;
 import com.alexq.uiwidget.ShadowMovingLoadingView;
-
-import alexq.com.shadowloadingviewdemo.R;
 
 
 public class ShadowMovingLoadingDemoActivity extends AppCompatActivity implements View.OnClickListener{
@@ -20,7 +19,7 @@ public class ShadowMovingLoadingDemoActivity extends AppCompatActivity implement
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_shadowmovingloading);
 
 		m_shadowMovingLoadingView = (ShadowMovingLoadingView) findViewById(R.id.progressBarVideoLoading);
 

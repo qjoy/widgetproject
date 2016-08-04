@@ -1,6 +1,8 @@
-package alexq.com.shadowloadingviewdemo;
+package com.alexq;
 
 import android.app.Application;
+
+import com.facebook.drawee.backends.pipeline.Fresco;
 
 import alexq.widgetLibApplication;
 
@@ -23,6 +25,11 @@ public class MyApplication extends Application {
 
 		mAppInstance = this;
 		m_libApplication = new widgetLibApplication(this);
+	}
 
+	@Override
+	public void onCreate() {
+		super.onCreate();
+		Fresco.initialize(this);
 	}
 }
